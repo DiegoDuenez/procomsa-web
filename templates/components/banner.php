@@ -1,5 +1,8 @@
 <div class="banner">
 
+    <div class="banner__mask"></div>
+
+
     <div class="banner__items">
         <div class="banner__item">
             <p>11</p>
@@ -36,6 +39,5 @@
         </h1>
     </div>
 
-    <div class="banner__mask"></div>
 
 </div>

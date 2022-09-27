@@ -15,3 +15,17 @@
 //       scrub: true
 //     }, 
 //   });
+
+
+var lastScrollTop = 0
+window.addEventListener("scroll", function () {
+    var scrollTop = window.pageYOffset || this.document.documentElement.scrollTop
+
+    if (scrollTop > "30" ) {
+        $('.navbar__bg').css('top','0')
+    }
+    else {
+        $('.navbar__bg').css('top','-8rem')
+    }
+    lastScrollTop = scrollTop
+})

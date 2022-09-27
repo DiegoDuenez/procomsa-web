@@ -12,6 +12,9 @@
 
     <?php include 'templates/layouts/nosotros.php'; ?>
 
+    <?php include 'templates/layouts/servicios.php'; ?>
+
+
     <?php include 'templates/scripts.php'; ?>
 </body>
 

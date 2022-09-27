@@ -1,0 +1,57 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Layouts (Servicios)
+|   ---------------------------------------------------------------------------------
+|   
+*/
+
+
+.servicios{
+    display: flex;
+    width: 100%;
+    background-color: var(--color-gold);
+    position: relative;
+    min-height: 10rem;
+    height: max-content;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 3rem;
+}
+
+.servicios__header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 3rem;
+}
+
+.servicios__items{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 2rem 5%;
+}
+
+.servicios__item{
+    display: flex;
+    font-size: 1.2rem;
+    color: var(--color-blue);
+    gap: 0.8rem;
+    align-items: center;
+}
+
+.servicios__item i{
+    font-size: 2.5rem;
+}
+
+.servicios__item-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.servicios__items-row{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}

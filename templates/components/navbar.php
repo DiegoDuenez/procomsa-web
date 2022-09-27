@@ -1,4 +1,7 @@
 <nav class="navbar">
+    <div class="navbar__bg">
+
+    </div>
     <div class="navbar__menu">
        <button><i class="fa-solid fa-bars"></i></button> 
     </div>

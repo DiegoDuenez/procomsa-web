@@ -31,7 +31,8 @@
                 <span class="nosotros__bar"></span>
             </div>
             <div class="nosotros__text">
-
+            Distinguirnos por el diseño, realización, expansión y sentido de pertenencia de nuestros desarrollos inmobiliarios
+            , siempre con el objetivo de crear una experiencia en nuestros clientes, siendo un referente de la ciudad en la que se encuentre.
             </div>
 
             <div class="nosotros__title" style="margin-top: 5rem;">
@@ -43,10 +44,6 @@
 
             </div>
 
-        </div>
-
-        <div class="nosotros__bg">
-            <img src="resources/img/logo-trasparente.png" alt="Logo">
         </div>
         
     </div>
