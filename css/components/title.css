@@ -17,3 +17,10 @@
     height: 0.2rem ;
     background-color: var(--color-blue);
 }
+.title--gold{
+    color: var(--color-gold);
+}
+
+.title__line--gold{
+    background-color: var(--color-gold);
+}

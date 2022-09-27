@@ -1,0 +1,52 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Layouts (Cobertura)
+|   ---------------------------------------------------------------------------------
+|   
+*/
+
+.cobertura{
+    display: flex;
+    width: 100%;
+    background-color: var(--color-blue);
+    position: relative;
+    padding: 5rem 0;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cobertura__header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 3rem;
+}
+
+.cobertura__lista{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+.cobertura__lista li{
+    font-size: 2rem;
+    color: var(--color-white);
+    list-style-type: disc;
+    margin-top: 1rem;
+}
+
+.cobertura__mapa{
+    padding-top: 5rem;
+    position: absolute;
+    top: 0;
+    right: 2rem;
+    background-image: url('../../resources/img/mapa.png');
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50rem;
+    height: 50rem;
+    background-origin: content-box;
+}
+

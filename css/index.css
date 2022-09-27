@@ -40,6 +40,7 @@
 @import url('components/navbar.css');
 @import url('components/banner.css');
 @import url('components/title.css');
+@import url('components/dots.css');
 
 
 
@@ -50,4 +51,5 @@
 */
 @import url('layouts/nosotros.css');
 @import url('layouts/servicios.css');
+@import url('layouts/cobertura.css');
 
