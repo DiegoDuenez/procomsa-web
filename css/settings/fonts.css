@@ -1,0 +1,13 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Settings (Fonts)
+|   ---------------------------------------------------------------------------------
+|   
+|   Here you can put all your own font families using the @font-face rule.
+|
+*/
+
+@font-face {
+    font-family: MavenPro;
+    src: url('../../fonts/MavenPro-VariableFont_wght.ttf') format('woff');
+}

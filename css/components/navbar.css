@@ -1,0 +1,61 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Components (Navbar)
+|   ---------------------------------------------------------------------------------
+|   
+*/
+
+.navbar{
+    display: flex;
+    width: 100%;
+    background-color: var(--color-blue);
+    height: 5rem;
+    justify-content: space-between;
+    color: var(--color-gold);
+    position: absolute;
+    z-index: 10;
+}
+
+.navbar__menu{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    width: max-content;
+    padding-left: 1rem;
+}
+
+.navbar__menu button{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: var(--color-gold);
+}
+
+.navbar__logo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 33%;
+}
+
+.navbar__logo img{
+    width: 80%;
+}
+
+.navbar__contact{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    min-width: 33%;
+    width: max-content;
+    padding-right: 1rem;
+
+}
+
+.navbar__contact a{
+    color: var(--color-gold);
+    text-decoration: none;
+    font-weight: bold;
+}
