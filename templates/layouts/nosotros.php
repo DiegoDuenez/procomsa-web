@@ -8,7 +8,7 @@
 
         <div class="nosotros__col">
 
-            <div class="nosotros__title  gs_reveal gs_reveal_fromLeft">
+            <div class="nosotros__title gs_reveal gs_reveal_fromLeft">
                 <div class="nosotros__title-text"><i class="fa-solid fa-users"></i> Nuestra historia </div>
                 <span class="nosotros__bar"></span>
             </div>

@@ -13,6 +13,10 @@
     padding: 5rem 0;
     flex-direction: column;
     gap: 2rem;
+    background-image: url('../../resources/img/logo-trasparente.png');
+    background-position: left;
+    background-size: 70%;
+    background-repeat: no-repeat;
 }
 
 .cobertura__header{

@@ -2,10 +2,12 @@
 
     <div class="dots__container">
 
-        <a href="#" class="dot dot--active"></a>
-        <a href="#nosotros" class="dot"></a>
-        <a href="#servicios" class="dot"></a>
-        <a href="#" class="dot"></a>
+        <div class="dot__out dot--active" href="#" ><div class="dot"></div></div>
+        <div class="dot__out" href="#nosotros" ><div class="dot"></div></div>
+        <div class="dot__out" href="#servicios" ><div class="dot"></div></div>
+        <div class="dot__out" href="#cobertura" ><div class="dot"></div></div>
+        <div class="dot__out" href="#proyectos" ><div class="dot"></div></div>
+
 
     </div>
 

@@ -53,3 +53,56 @@ window.addEventListener("scroll", function () {
     }
     lastScrollTop = scrollTop
 })
+
+
+$('.dot').click(function(){
+    clearDots(this);
+})
+
+
+$(window).scroll(function() {
+
+    let inicioTarget = $('body').position().top;
+    let inicioDot = $(".dot__out[href='#']")
+
+    let nosotrosTarget = $('#nosotros').position().top;
+    let nosotrosDot = $(".dot__out[href='#nosotros']")
+
+    let serviciosTarget = $('#servicios').position().top;
+    let serviciosDot = $(".dot__out[href='#servicios']")
+
+    let coberturaTarget = $('#cobertura').position().top;
+    let coberturaDot = $(".dot__out[href='#cobertura']")
+
+    
+    let proyectosTarget = $('#proyectos').position().top;
+    let proyectosDot = $(".dot__out[href='#proyectos']")
+
+   
+    if($(window).scrollTop() >= nosotrosTarget && $(window).scrollTop() < serviciosTarget) {
+        clearDots(nosotrosDot)
+    }
+    if($(window).scrollTop() >= serviciosTarget && $(window).scrollTop() < coberturaTarget) {
+        clearDots(serviciosDot)
+    }
+    if($(window).scrollTop() >= coberturaTarget  && $(window).scrollTop() < proyectosTarget) {
+        clearDots(coberturaDot)
+    }
+    if($(window).scrollTop() >= proyectosTarget){
+        clearDots(proyectosDot)
+    }
+
+    if($(window).scrollTop() < nosotrosTarget){
+        clearDots(inicioDot)
+    }
+
+
+});
+
+function clearDots(dot){
+    let dots = document.getElementsByClassName("dot__out");
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" dot--active", "");
+    }
+    $(dot).addClass('dot--active')
+}

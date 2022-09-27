@@ -18,6 +18,7 @@
 
     <?php include 'templates/layouts/cobertura.php'; ?>
 
+    <?php include 'templates/layouts/proyectos.php'; ?>
 
 
     <?php include 'templates/scripts.php'; ?>
