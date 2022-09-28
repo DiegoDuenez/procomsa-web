@@ -4,7 +4,7 @@ var slider = new Glider(document.querySelector(".glider"), {
     draggable: false,
 })
 slideAutoPaly(slider, '.glider');
-function slideAutoPaly(glider, selector, delay = 4000, repeat = true) {
+function slideAutoPaly(glider, selector, delay = 7000, repeat = true) {
     let autoplay = null;
     const slidesCount = glider.track.childElementCount;
     let nextIndex = 1;
@@ -45,22 +45,21 @@ var timeoutId;
 
 $('#btnAnterior').hover(function(){
     $('.card').css('transform', 'translateX(20px)')
-    if (!timeoutId) {
-        timeoutId = window.setTimeout(function() {
-            timeoutId = null; 
-            alert('ola')
-       }, 2000);
-    }
+    // if (!timeoutId) {
+    //     timeoutId = window.setTimeout(function() {
+    //         timeoutId = null; 
+    //         slider.scrollItem(slider.slide-1)
+    //    }, 2000);
+    // }
 
   }, function(){
     $('.card').css('transform', 'none')
-    if (timeoutId) {
-        window.clearTimeout(timeoutId);
-        timeoutId = null;
-    }
-    else {
-    //    $("#SeeAllEvents").slideUp('slow');
-    }
+    // if (timeoutId) {
+    //     window.clearTimeout(timeoutId);
+    //     timeoutId = null;
+    // }
+    // else {
+    // }
   })
 
 
