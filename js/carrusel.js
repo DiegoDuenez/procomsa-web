@@ -15,7 +15,6 @@ function slideAutoPaly(glider, selector, delay = 4000, repeat = true) {
             if (nextIndex >= slidesCount) {
                 if (!repeat) {
                     clearInterval(autoplay);
-                    clearInterval(changeInt);
 
                 } else {
                     nextIndex = 0;
