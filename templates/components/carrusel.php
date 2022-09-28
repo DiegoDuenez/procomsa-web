@@ -8,7 +8,7 @@
 
         <div class="card">
             <div class="card__image">
-                <img src="resources/img/img-proyectos.png" alt="" >
+                <img src="resources/img/img-proyectos.png" alt="" loading="lazy" >
 
             </div>
             <div class="card__information">
