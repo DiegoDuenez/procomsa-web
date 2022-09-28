@@ -2,22 +2,21 @@ var slider = new Glider(document.querySelector(".glider"), {
     slidesToShow: 1,
     slidesToScroll:1,
     draggable: false,
-    // arrows: {
-    //     prev: '.glider-prev',
-    //     next: '.glider-next'
-    // }
 })
 slideAutoPaly(slider, '.glider');
-function slideAutoPaly(glider, selector, delay = 5000, repeat = true) {
+function slideAutoPaly(glider, selector, delay = 4000, repeat = true) {
     let autoplay = null;
     const slidesCount = glider.track.childElementCount;
     let nextIndex = 1;
     let pause = true;
     function slide() {
+      
         autoplay = setInterval(() => {
             if (nextIndex >= slidesCount) {
                 if (!repeat) {
                     clearInterval(autoplay);
+                    clearInterval(changeInt);
+
                 } else {
                     nextIndex = 0;
                 }
@@ -26,7 +25,7 @@ function slideAutoPaly(glider, selector, delay = 5000, repeat = true) {
         }, delay);
     }
     slide();
-   /* var element = document.querySelector(selector);
+    var element = document.querySelector(selector);
     element.addEventListener('mouseover', (event) => {
         if (pause) {
             clearInterval(autoplay);
@@ -38,5 +37,19 @@ function slideAutoPaly(glider, selector, delay = 5000, repeat = true) {
             slide();
             pause = true;
         }
-    }, 300);*/
+    }, 300);
 }
+
+
+
+$('#btnAnterior').hover(function(){
+    $('.card').css('transform', 'translateX(20px)')
+  }, function(){
+    $('.card').css('transform', 'none')
+  })
+  
+  $('#btnSiguiente').hover(function(){
+    $('.card').css('transform', 'translateX(-20px)')
+  }, function(){
+    $('.card').css('transform', 'none')
+  })

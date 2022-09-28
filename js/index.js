@@ -46,7 +46,6 @@ function animateFrom(elem, direction) {
 var lastScrollTop = 0
 window.addEventListener("scroll", function () {
     var scrollTop = window.pageYOffset || this.document.documentElement.scrollTop
-    console.log(scrollTop)
     if (scrollTop > "20" ) {
         $('.navbar__bg').css('top','0')
     }
@@ -127,3 +126,33 @@ function clearDots(dot){
   
     
 }
+
+
+$(document).ready(function(){
+  counter('.banner__counter')
+})
+
+
+function counter(element){
+
+
+  $(element).each(function() {
+    let upto = 0;
+    var count= $(this)
+    let to = $(this).attr('data-counter')
+
+    let counts = setInterval(function(){
+      count.text(++upto);
+      if(upto == to) {
+        clearInterval(counts);
+      }
+    
+    });
+    
+  });
+
+  
+}
+
+
+

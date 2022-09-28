@@ -5,28 +5,28 @@
 
     <div class="banner__items">
         <div class="banner__item">
-            <p>11</p>
+            <p class="banner__counter" data-counter="11">0</p>
             <p>APARTMENT W/ GARDEN</p>
         </div>
         <div class="banner__item">
-            <p>11</p>
-            <p>APARTMENT W/ GARDEN</p>
+            <p class="banner__counter" data-counter="1">0</p>
+            <p>LOFT W/ GARDEN</p>
         </div>
         <div class="banner__item banner__item--blue">
-            <p>11</p>
-            <p>APARTMENT W/ GARDEN</p>
+            <p class="banner__counter" data-counter="10">0</p>
+            <p>LOFT</p>
         </div>
         <div class="banner__item banner__item--pink-3">
-            <p>11</p>
-            <p>APARTMENT W/ GARDEN</p>
+            <p class="banner__counter" data-counter="55">0</p>
+            <p>APARTMENT</p>
         </div>
         <div class="banner__item banner__item--pink-2">
-            <p>11</p>
-            <p>APARTMENT W/ GARDEN</p>
+            <p class="banner__counter" data-counter="2">0</p>
+            <p>PENTHOUSE</p>
         </div>
         <div class="banner__item banner__item--pink">
-            <p>11</p>
-            <p>APARTMENT W/ GARDEN</p>
+            <p class="banner__counter" data-counter="5">0</p>
+            <p>TOWNHOME</p>
         </div>
 
     </div>
