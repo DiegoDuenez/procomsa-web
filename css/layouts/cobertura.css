@@ -36,9 +36,17 @@
 .cobertura__lista li{
     font-size: 2rem;
     color: var(--color-white);
-    list-style-type: disc;
+    list-style-type: none;
     margin-top: 1rem;
 }
+
+.cobertura__lista li:before {
+    content: "\f3c5"; 
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+  }
 
 .cobertura__mapa{
     padding-top: 5rem;
