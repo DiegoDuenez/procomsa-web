@@ -4,7 +4,7 @@ var slider = new Glider(document.querySelector(".glider"), {
     draggable: false,
 })
 slideAutoPaly(slider, '.glider');
-function slideAutoPaly(glider, selector, delay = 7000, repeat = true) {
+function slideAutoPaly(glider, selector, delay = 4000, repeat = true) {
     let autoplay = null;
     const slidesCount = glider.track.childElementCount;
     let nextIndex = 1;
