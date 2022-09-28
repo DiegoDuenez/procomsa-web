@@ -6,6 +6,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/ScrollTrigger.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollToPlugin.min.js"></script>
 <script src="js/index.js"></script>
+<script src="js/carrusel.js"></script>
+
 <!-- <script src="js/index.js"></script>
 <script src="js/menu.js"></script>
 <script src="js/mail.js"></script> -->

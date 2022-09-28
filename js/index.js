@@ -1,3 +1,5 @@
+var claseDouOut = 'dot--active'
+
 function animateFrom(elem, direction) {
     direction = direction || 1;
     var x = 0,
@@ -44,13 +46,29 @@ function animateFrom(elem, direction) {
 var lastScrollTop = 0
 window.addEventListener("scroll", function () {
     var scrollTop = window.pageYOffset || this.document.documentElement.scrollTop
-
+    console.log(scrollTop)
     if (scrollTop > "20" ) {
         $('.navbar__bg').css('top','0')
     }
     else {
         $('.navbar__bg').css('top','-8rem')
     }
+
+    // if(scrollTop >= "1920"){
+
+    //   $('.dot').addClass('dot--blue')
+    //   claseDouOut = 'dot--active-blue'
+    // }
+    // else{
+    //   $('.dot').removeClass('dot--blue')
+
+    //   let dots = document.getElementsByClassName("dot__out");
+    //   for (i = 0; i < dots.length; i++) {
+    //       $(dots[i]).removeClass(`dot--active-blue`)
+    //   }
+    //   claseDouOut = 'dot--active'
+
+    // }
     lastScrollTop = scrollTop
 })
 
@@ -100,9 +118,12 @@ $(window).scroll(function() {
 });
 
 function clearDots(dot){
+
     let dots = document.getElementsByClassName("dot__out");
     for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" dot--active", "");
+        $(dots[i]).removeClass(`${claseDouOut}`)
     }
-    $(dot).addClass('dot--active')
+    $(dot).addClass(`${claseDouOut}`)
+  
+    
 }

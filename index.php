@@ -21,6 +21,8 @@
     <?php include 'templates/layouts/proyectos.php'; ?>
 
 
+
+
     <?php include 'templates/scripts.php'; ?>
 </body>
 
