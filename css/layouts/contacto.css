@@ -1,0 +1,195 @@
+/*
+|   ---------------------------------------------------------------------------------
+|   @Layouts (Contacto)
+|   ---------------------------------------------------------------------------------
+|   
+*/
+
+.contacto{
+    display: flex;
+    width: 100%;
+    background-color: var(--color-blue);
+    position: relative;
+    gap: 2rem;
+}
+
+.contacto__col{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.contacto__col--30{
+    width: 30%;
+}
+
+.contacto__col--padding{
+    padding: 5rem 0 0 0;
+    gap: 2rem;
+}
+
+.contacto__header{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contacto__header p{
+    margin-left: 13rem;
+}
+
+.contacto__title{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 2rem;
+}
+
+.contacto__lista{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+.contacto__lista li{
+    font-size: 2rem;
+    color: var(--color-white);
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+.contacto__lista li:before {
+    content: "\f3c5"; 
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em;
+  }
+
+.contacto__mapa{
+    padding-top: 5rem;
+    position: absolute;
+    top: 0;
+    right: 2rem;
+    background-image: url('../../resources/img/mapa.png');
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50rem;
+    height: 50rem;
+    background-origin: content-box;
+}
+
+
+.contacto__form-container{
+    display: flex;
+    width: 100%;
+    padding: 1rem 0;
+    justify-content: flex-end;
+}
+
+.contacto__form{
+    display: flex;
+    width: 30rem;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contacto__input{
+    border: 1px solid var(--color-gold);
+    outline: none;
+    padding: 1rem;
+    background-color: transparent;
+    transition: 400ms;
+    color: var(--color-white);
+}
+
+.contacto__textarea{
+    border: 1px solid var(--color-gold);
+    outline: none;
+    padding: 1rem;
+    background-color: transparent;
+    transition: 400ms;
+    color: var(--color-white);
+}
+
+.contacto__input::placeholder { 
+    color: var(--color-white);
+    opacity: 1; 
+}
+
+.contacto__input:-ms-input-placeholder { 
+    color: var(--color-white);
+
+}
+
+.contacto__input::-ms-input-placeholder { 
+    color: var(--color-white);
+
+}
+
+.contacto__textarea::placeholder { 
+    color: var(--color-white);
+    opacity: 1; 
+}
+
+.contacto__textarea:-ms-input-placeholder { 
+    color: var(--color-white);
+
+}
+
+.contacto__textarea::-ms-input-placeholder { 
+    color: var(--color-white);
+
+}
+
+.contacto__input:focus::placeholder {
+    color: var(--color-light-2);
+    opacity: 1; 
+}
+
+
+.contacto__button{
+    background-color: var(--color-gold);;
+    border: none;
+    border: 1px solid var(--color-gold);
+    color: var(--color-blue);
+    font-weight: bold;
+    outline: none;
+    width: 8rem;
+    height: 3rem;
+    transition: 400ms;
+    cursor: pointer;
+    align-self: center;
+}
+
+.contacto__col iframe{
+    width: 100%;
+    height: 100%;
+}
+
+.contacto__informacion{
+    display: flex;
+    flex-direction: column;
+    width: 22rem;
+    height: 100%;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contacto__informacion-item{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+.contacto__informacion-item a{
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.contacto__informacion-item i{
+    color: var(--color-gold);
+}

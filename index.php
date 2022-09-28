@@ -22,6 +22,8 @@
 
     <?php include 'templates/layouts/cllientes.php'; ?>
 
+    <?php include 'templates/layouts/contacto.php'; ?>
+
 
     <?php include 'templates/scripts.php'; ?>
 </body>

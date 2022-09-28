@@ -15,6 +15,7 @@
     z-index: 9;
     justify-content: center;
     align-items: center;
+    display: none;
 }
 
 .dots__container{

@@ -24,3 +24,8 @@
 .title__line--gold{
     background-color: var(--color-gold);
 }
+
+.subtitle{
+    color: var(--color-gold);
+    font-size: 1.2rem;
+}
