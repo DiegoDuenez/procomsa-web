@@ -41,12 +41,29 @@ function slideAutoPaly(glider, selector, delay = 4000, repeat = true) {
 }
 
 
+var timeoutId;
 
 $('#btnAnterior').hover(function(){
     $('.card').css('transform', 'translateX(20px)')
+    if (!timeoutId) {
+        timeoutId = window.setTimeout(function() {
+            timeoutId = null; 
+            alert('ola')
+       }, 2000);
+    }
+
   }, function(){
     $('.card').css('transform', 'none')
+    if (timeoutId) {
+        window.clearTimeout(timeoutId);
+        timeoutId = null;
+    }
+    else {
+    //    $("#SeeAllEvents").slideUp('slow');
+    }
   })
+
+
   
   $('#btnSiguiente').hover(function(){
     $('.card').css('transform', 'translateX(-20px)')
