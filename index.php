@@ -20,7 +20,7 @@
 
     <?php include 'templates/layouts/proyectos.php'; ?>
 
-
+    <?php include 'templates/layouts/cllientes.php'; ?>
 
 
     <?php include 'templates/scripts.php'; ?>

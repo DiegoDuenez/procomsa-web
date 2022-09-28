@@ -1,56 +1,84 @@
 /*
 |   ---------------------------------------------------------------------------------
-|   @Layouts (Servicios)
+|   @Layouts (Clientes)
 |   ---------------------------------------------------------------------------------
 |   
 */
 
-.servicios{
+.clientes{
     display: flex;
     width: 100%;
     background-color: var(--color-gold);
     position: relative;
     min-height: 10rem;
     height: max-content;
-    flex-direction: column;
     justify-content: center;
     gap: 1rem;
-    padding-top: 3rem;
 }
 
-.servicios__header{
+.clientes__header{
     display: flex;
     width: 100%;
     align-items: center;
     gap: 3rem;
 }
 
-.servicios__items{
+.clientes__items{
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding: 2rem 5%;
+    padding: 3rem;
 }
 
-.servicios__item{
+.clientes__item{
     display: flex;
-    font-size: 1.2rem;
+    flex-direction: column;
     color: var(--color-blue);
-    gap: 0.8rem;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.clientes__item-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-.servicios__item i{
+.clientes__item-img img{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.clientes__item-text{
+    display: flex;
+    flex-direction: column;
+    color: var(--color-blue);
+    text-align: center;
+    gap: 1rem;
+    line-height: 1.5rem;
+}
+
+.clientes__item-text a{
+    text-decoration: none;
+    color: var(--color-blue);
+}
+
+
+/* .clientes__item i{
     font-size: 2.5rem;
 }
 
-.servicios__item-text{
+.clientes__item-text{
     display: flex;
     flex-direction: column;
 }
 
-.servicios__items-row{
+.clientes__items-row{
     display: flex;
     width: 50%;
     justify-content: space-around;
-}
+} */
