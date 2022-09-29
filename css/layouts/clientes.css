@@ -15,20 +15,43 @@
     justify-content: center;
     gap: 1rem;
 }
+    @media screen and (min-width: 300px) and (max-width: 800px) {
+                                                                
+        .clientes{
+            flex-direction: column;
+            padding: 2rem 0;
+        }
+        
+    }
 
 .clientes__header{
     display: flex;
-    width: 100%;
+    width: 50%;
     align-items: center;
     gap: 3rem;
 }
+    @media screen and (min-width: 300px) and (max-width: 800px) {
+                                                                    
+        .clientes__header{
+            width: 100%;
+            justify-content: center;
+        }
+        
+    }
 
 .clientes__items{
     display: flex;
-    width: 100%;
+    width: 50%;
     justify-content: space-between;
     padding: 3rem;
 }
+    @media screen and (min-width: 300px) and (max-width: 800px) {
+                                                                        
+        .clientes__items{
+            width: 100%;
+        }
+        
+    }
 
 .clientes__item{
     display: flex;

@@ -27,7 +27,7 @@
 
         <div class="servicios__items-row">
 
-            <div class="servicios__item">
+            <div class="servicios__item servicio__item--end">
                 <i class="fa-solid fa-handshake"></i>
                 <div class="servicios__item-text">
                     <b>Arrendamiento y <br> administración de <br>
@@ -35,7 +35,7 @@
                 </div>
             </div>
 
-            <div class="servicios__item">
+            <div class="servicios__item servicio__item--end">
                 <i class="fa-solid fa-hammer"></i>
                 <div class="servicios__item-text">
                     <b>Construcción</b> 

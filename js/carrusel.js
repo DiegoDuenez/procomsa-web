@@ -2,6 +2,20 @@ var slider = new Glider(document.querySelector(".glider"), {
     slidesToShow: 1,
     slidesToScroll:1,
     draggable: false,
+    responsive: [
+        {
+          breakpoint: 300,
+          settings: {
+            draggable: true
+          }
+        },
+        {
+        breakpoint: 800,
+        settings: {
+            draggable: false
+        }
+        }
+    ]
 })
 slideAutoPaly(slider, '.glider');
 function slideAutoPaly(glider, selector, delay = 4000, repeat = true) {

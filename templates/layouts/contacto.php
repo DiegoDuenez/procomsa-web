@@ -41,8 +41,5 @@
     <div class="contacto__col contacto__col--30">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115190.16399141334!2d-103.4019159!3d25.548613699999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fdba9bb45b3fb%3A0x8bcc7a9970aea01d!2sTorre%C3%B3n%2C%20Coahuila!5e0!3m2!1sen!2smx!4v1664397948877!5m2!1sen!2smx"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-  
-   
-
 
 </div>

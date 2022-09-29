@@ -35,7 +35,7 @@
             , siempre con el objetivo de crear una experiencia en nuestros clientes, siendo un referente de la ciudad en la que se encuentre.
             </div>
 
-            <div class="nosotros__title  gs_reveal gs_reveal_fromRight" style="margin-top: 5rem;">
+            <div class="nosotros__title nosotros__title-mt5 gs_reveal gs_reveal_fromRight" >
                 <div class="nosotros__title-text"> <i class="fa-regular fa-bullseye-arrow"></i> Misión </div>
                 <span class="nosotros__bar"></span>
             </div>

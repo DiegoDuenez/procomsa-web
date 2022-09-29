@@ -11,12 +11,28 @@
     text-transform: uppercase;
     color: var(--color-blue);
 }
+    @media screen and (min-width: 300px) and (max-width: 600px) {
+        .title{
+           font-size: 2rem;
+            
+        }
+    }
+
 
 .title__line{
     width: 10rem;
     height: 0.2rem ;
     background-color: var(--color-blue);
 }
+    @media screen and (min-width: 300px) and (max-width: 800px) {
+        .title__line{
+            display: none;
+        }
+        .title{
+            text-align: center;
+        }
+    }
+
 .title--gold{
     color: var(--color-gold);
 }
@@ -33,3 +49,4 @@
 .title__line--sm{
     width: 7rem;
 }
+
