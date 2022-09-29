@@ -29,6 +29,14 @@
     border: 1px solid var(--color-blue);
 }
 
+    @media screen and (min-width: 100px) and (max-width: 340px) {
+                                                                                
+        .menu__button{
+            top: 0;
+        }
+        
+    }
+
 .menu__button i{
     font-size: 2rem;
 }
@@ -37,7 +45,6 @@
     background-color: var(--color-gold);
     padding: 0;
     display: flex;
-
 }
 
 .menu__content{
@@ -48,9 +55,38 @@
     flex-direction: column;
 }
 
+    @media screen and (min-width: 801px) and (max-width: 1162px) {
+                                                                        
+        .menu__content{
+            width: 60%;
+        }
+    }
+    @media screen and (min-width: 300px) and (max-width: 800px) {
+                                                                        
+        .menu__content{
+            width: 100%
+        }
+    }
+
 .menu__content--blue{
     background-color: var(--color-blue);
 }
+
+    @media screen and (min-width: 801px) and (max-width: 1162px) {
+                                                                    
+        .menu__content--blue{
+            width: 40%;
+        }
+        
+    }
+    @media screen and (min-width: 300px) and (max-width: 800px) {
+                                                                                
+        .menu__content--blue{
+            display: none;
+        }
+        
+    }
+
 
 .menu__row{
     display: flex;
@@ -99,6 +135,14 @@
     gap: 1rem;
     justify-content: center;
 }
+    @media screen and (min-width: 300px) and (max-width: 1162px) {
+                                                                                    
+        .menu__links{
+            padding: 2rem;
+            padding-top: 3rem;
+        }
+        
+    }
 
 .menu__link{
     padding: 0 1rem;
@@ -117,6 +161,13 @@
     text-decoration: none;
     font-size: 3rem;
 }
+    @media screen and (min-width: 300px) and (max-width: 1162px) {
+                                                                            
+        .menu__link a{
+            font-size: 2rem;
+        }
+        
+    }
 
 .menu__link--active{
     border-left: 4px solid var(--color-blue);
@@ -125,14 +176,32 @@
 .menu__information{
     display: flex;
     padding: 0 3rem;
+    width: 100%;
 }
+    @media screen and (min-width: 300px) and (max-width: 1162px) {
+                                                                                
+        .menu__information{
+            width: 100%;
+           flex-direction: column;
+           gap: 1rem;
+           padding: 0 2rem;
+        }
+        
+    }
 
 .menu__information-item{
     display: flex;
     gap: 1rem;
     width: 50%;
-    
 }
+
+    @media screen and (min-width: 300px) and (max-width: 1162px) {
+                                                                                    
+        .menu__information-item{
+            width: 100%;
+        }
+        
+    }
 
 .menu__information-item--w100{
     width: 100%;

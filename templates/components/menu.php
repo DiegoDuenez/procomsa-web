@@ -22,7 +22,7 @@
 
     <div class="menu__content">
 
-        <div class="menu__links">
+        <div class="menu__links" >
 
             <div class="menu__link"><a href="#">Inicio</a></div>
             <div class="menu__link"><a href="#nosotros">Nosotros</a></div>
@@ -34,9 +34,9 @@
 
         </div>
 
-        <div class="menu__information">
+        <div class="menu__information" >
 
-            <div class="menu__information-item">
+            <div class="menu__information-item" >
                 <a href="mailto:contacto@upcprocomsa.mx"><i class="fa-solid fa-location-dot"></i> contacto@upcprocomsa.mx</a>
             </div>
 
