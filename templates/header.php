@@ -20,6 +20,8 @@ con propuestas que rompieran las barreras de lo ya hecho o visto en la región."
 <link rel="stylesheet" href="libs/aos/dist/aos.css">
 <!--====== GLIDER CSS ======-->
 <link rel="stylesheet" href="libs/glider/glider.min.css">
+<!--====== MENU CSS ======-->
+<link rel="stylesheet" href="libs/menu/menu.min.css">
 <!--====== MAIN CSS ======-->
 <link rel="stylesheet" href="css/index.css">
 <!--====== GOOGLE RECAPTCHA ======-->

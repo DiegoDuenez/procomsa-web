@@ -3,7 +3,7 @@
 
     </div>
     <div class="navbar__menu">
-       <button><i class="fa-solid fa-bars"></i></button> 
+       <button class="open"><i class="fa-solid fa-bars"></i></button> 
     </div>
 
     <div class="navbar__logo">

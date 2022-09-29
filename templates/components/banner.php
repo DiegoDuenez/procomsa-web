@@ -1,4 +1,4 @@
-<div class="banner">
+<div class="banner" style="z-index: -1;">
 
     <div class="banner__mask"></div>
 
