@@ -2,15 +2,15 @@
 
 $('.open').click(function(){
     $('body').css('overflow','hidden')
-    animateCSS('#img1', 'slideInDown');
-    animateCSS('#img2', 'slideInLeft');
+    animateCSS('#img1', 'slideInLeft');
+    animateCSS('#img2', 'slideInDown');
     animateCSS('#img3', 'slideInUp');
 
 })
 
 $('.close').click(function(){
-    animateCSS('#img1', 'slideOutUp');
-    animateCSS('#img2', 'slideOutRight');
+    animateCSS('#img1', 'slideOutLeft');
+    animateCSS('#img2', 'slideOutUp');
     animateCSS('#img3', 'slideOutDown');
     $('body').css('overflow','auto')
 
@@ -37,10 +37,7 @@ async function clearLinks(link){
     $('.menu').removeClass('open--right')
     $('body').css('overflow','auto')
    
-
-    
 }
-
 
 const animateCSS = (element, animation, prefix = 'animate__') =>
     new Promise((resolve, reject) => {

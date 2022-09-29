@@ -48,6 +48,10 @@
     flex-direction: column;
 }
 
+.menu__content--blue{
+    background-color: var(--color-blue);
+}
+
 .menu__row{
     display: flex;
     width: 100%;

@@ -1,6 +1,6 @@
 <div class="menu" id="menu">
 
-    <div class="menu__content">
+    <div class="menu__content menu__content--blue">
 
         <div class="menu__row">
             <div class="menu__image" id="img1">

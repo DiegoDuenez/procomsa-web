@@ -5,6 +5,8 @@
 </head>
 <body>
 
+    <?php include 'templates/components/modal.php'; ?>
+
     <?php include 'templates/components/menu.php'; ?>
 
     <?php include 'templates/components/navbar.php'; ?>

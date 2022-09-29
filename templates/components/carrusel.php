@@ -19,7 +19,7 @@
                     <p class="card__text">Hacienda del rosario</p>
                     <p class="card__text card__text--gold">Torreón, Coahuila</p>
 
-                    <button type="button" class="card__button hvr-sweep-to-top">VER PROYECTO</button>
+                    <button type="button" class="card__button hvr-sweep-to-top openModal">VER PROYECTO</button>
                     
                 </div>
 
@@ -38,7 +38,7 @@
                     <p class="card__text">Hacienda del rosario</p>
                     <p class="card__text card__text--gold">Torreón, Coahuila</p>
 
-                    <button type="button" class="card__button hvr-sweep-to-top">VER PROYECTO</button>
+                    <button type="button" class="card__button hvr-sweep-to-top openModal">VER PROYECTO</button>
                     
                 </div>
 
