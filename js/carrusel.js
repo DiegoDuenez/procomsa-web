@@ -40,31 +40,15 @@ function slideAutoPaly(glider, selector, delay = 4000, repeat = true) {
 }
 
 
-var timeoutId;
-
 $('#btnAnterior').hover(function(){
     $('.card').css('transform', 'translateX(20px)')
-    // if (!timeoutId) {
-    //     timeoutId = window.setTimeout(function() {
-    //         timeoutId = null; 
-    //         slider.scrollItem(slider.slide-1)
-    //    }, 2000);
-    // }
 
-  }, function(){
+}, function(){
     $('.card').css('transform', 'none')
-    // if (timeoutId) {
-    //     window.clearTimeout(timeoutId);
-    //     timeoutId = null;
-    // }
-    // else {
-    // }
-  })
+})
 
-
-  
-  $('#btnSiguiente').hover(function(){
+$('#btnSiguiente').hover(function(){
     $('.card').css('transform', 'translateX(-20px)')
-  }, function(){
+}, function(){
     $('.card').css('transform', 'none')
-  })
+})

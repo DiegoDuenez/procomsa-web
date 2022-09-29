@@ -53,21 +53,6 @@ window.addEventListener("scroll", function () {
         $('.navbar__bg').css('top','-8rem')
     }
 
-    // if(scrollTop >= "1920"){
-
-    //   $('.dot').addClass('dot--blue')
-    //   claseDouOut = 'dot--active-blue'
-    // }
-    // else{
-    //   $('.dot').removeClass('dot--blue')
-
-    //   let dots = document.getElementsByClassName("dot__out");
-    //   for (i = 0; i < dots.length; i++) {
-    //       $(dots[i]).removeClass(`dot--active-blue`)
-    //   }
-    //   claseDouOut = 'dot--active'
-
-    // }
     lastScrollTop = scrollTop
 })
 
@@ -123,10 +108,20 @@ function clearDots(dot){
         $(dots[i]).removeClass(`${claseDouOut}`)
     }
     $(dot).addClass(`${claseDouOut}`)
-  
-    
 }
 
+
+$('.proyectos__tab').click(function(){
+  clearTabs(this)
+})
+
+function clearTabs(tab){
+  let tabs = document.getElementsByClassName("proyectos__tab");
+  for (i = 0; i < tabs.length; i++) {
+      $(tabs[i]).removeClass(`proyectos__tab--active`)
+  }
+  $(tab).addClass(`proyectos__tab--active`)
+}
 
 $(document).ready(function(){
   counter('.banner__counter')

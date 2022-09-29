@@ -6,6 +6,15 @@
 
     <div class="proyectos__container">
 
+      <div class="proyectos__tabs">
+          <div class="proyectos__tab proyectos__tab--active">
+            Construcción residencial
+          </div>
+          <div class="proyectos__tab">
+            Edificación vertical
+          </div>
+      </div>
+
       <?php include 'templates/components/carrusel.php'; ?>
 
     </div>
