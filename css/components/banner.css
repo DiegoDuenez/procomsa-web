@@ -28,46 +28,63 @@
     display: flex;
     min-width: 10rem;
     width: max-content;
-    border: 1px solid white;
+    border: 2px solid white;
     align-items: center;
     justify-content: center;
     padding: 1rem;
     gap: 1rem;
     margin-top: 7rem;
-
+    z-index: 2;
 }
+    @media screen and (min-width: 300px) and (max-width: 500px) {
+            
+        .banner__items{
+            min-width: 100%;
+            flex-wrap: wrap;
+             margin: 1rem;
+            margin-top: 7rem;
+
+        }
+        
+    }
 
 .banner__item{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 3px solid black;
+    border: 2px solid rgb(255, 255, 255);
     width: 8rem;
     height: 8rem;
     text-align: center;
     font-weight: bold;
     font-size: 0.8rem;
+    color: white;
 }
+    @media screen and (min-width: 300px) and (max-width: 500px) {
+                
+        .banner__item{
+            width: 33.33%;
+        }
+        
+    }
+    
+    @media screen and (min-width: 300px) and (max-width: 500px) {
+                
+        #item1{
+            width:46%;
+        }
+        #item2{
+            width: 45%;
+        }
+        #item3{
+            width: 100%;
+        }
+        
+    }
 
 .banner__item p:first-child{
     font-size: 2rem;
-}
-
-.banner__item--pink{
-    border-color: rgb(219, 58, 85);
-}
-
-.banner__item--pink-2{
-    border-color: rgb(185, 34, 107);
-}
-
-.banner__item--pink-3{
-    border-color: rgb(125, 30, 84);
-}
-
-.banner__item--blue{
-    border-color: var(--color-blue);
 }
 
 .banner__title{
@@ -96,7 +113,13 @@
         }
         
     }
-
+    @media screen and (min-width: 300px) and (max-width: 500px) {
+        
+        .banner__title{
+            margin-top: 0rem;
+        }
+        
+    }
 
 .banner__title h1{
     font-weight: normal;

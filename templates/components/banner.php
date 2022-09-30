@@ -4,30 +4,30 @@
 
 
     <div class="banner__items">
-        <div class="banner__item">
+        <div class="banner__item" id="item1">
             <p class="banner__counter" data-counter="11">0</p>
             <p>APARTMENT W/ GARDEN</p>
         </div>
-        <div class="banner__item">
+        <!-- <div class="banner__item">
             <p class="banner__counter" data-counter="1">0</p>
             <p>LOFT W/ GARDEN</p>
-        </div>
-        <div class="banner__item banner__item--blue">
+        </div> -->
+        <div class="banner__item banner__item--blue" id="item2">
             <p class="banner__counter" data-counter="10">0</p>
             <p>LOFT</p>
         </div>
-        <div class="banner__item banner__item--pink-3">
+        <div class="banner__item banner__item--pink-3" id="item3">
             <p class="banner__counter" data-counter="55">0</p>
             <p>APARTMENT</p>
         </div>
-        <div class="banner__item banner__item--pink-2">
+        <!-- <div class="banner__item banner__item--pink-2">
             <p class="banner__counter" data-counter="2">0</p>
             <p>PENTHOUSE</p>
         </div>
         <div class="banner__item banner__item--pink">
             <p class="banner__counter" data-counter="5">0</p>
             <p>TOWNHOME</p>
-        </div>
+        </div> -->
 
     </div>
 
