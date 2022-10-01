@@ -1,14 +1,32 @@
 
 $('.openModal').click(function(){
     $('body').css('overflow','hidden')
-    // animateCSS('#img1', 'slideInDown');
-    // animateCSS('#img2', 'slideInLeft');
-    // animateCSS('#img3', 'slideInUp');
 })
 
 $('.closeModal').click(function(){
-    // animateCSS('#img1', 'slideOutUp');
-    // animateCSS('#img2', 'slideOutRight');
-    // animateCSS('#img3', 'slideOutDown');
     $('body').css('overflow','auto')
+})
+
+$(document).keyup(function(e) {
+    if (e.key === "Escape" && $('.modal').hasClass('open--bottom')) { 
+        $('.modal').removeClass('open--bottom')
+        $('body').css('overflow','auto')
+
+   }
+})
+
+
+$('#btnModalAnterior').click(function(){
+
+    $('#modalVideo').hide()
+    $('.modal__imagenes').removeClass('modal__row--hide')
+    $('.modal__imagenes').fadeIn()
+
+})
+
+$('#btnModalSiguiente').click(function(){
+
+    $('.modal__imagenes').hide()
+    $('#modalVideo').fadeIn()
+
 })

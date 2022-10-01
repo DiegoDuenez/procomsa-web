@@ -274,7 +274,7 @@
 }
     @media screen and (min-width: 300px) and (max-width: 800px) {
                                     
-        .contacto__col iframe{
+        .contacto__col #mapa{
             display: none;
         }
         

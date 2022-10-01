@@ -9,7 +9,7 @@
         <div class="clientes__item">
 
             <div class="clientes__item-img">
-                <img src="resources/img/davisa.png" alt="">
+                <img src="resources/img/davisa.png" alt="Davisa" loading="lazy">
             </div>
             <div class="clientes__item-text">   
                 Referencias comerciales
@@ -23,7 +23,7 @@
         <div class="clientes__item">
 
             <div class="clientes__item-img">
-                <img src="resources/img/davisa.png" alt="">
+                <img src="resources/img/davisa.png" alt="Davisa" loading="lazy">
             </div>
             <div class="clientes__item-text">   
                 Referencias comerciales

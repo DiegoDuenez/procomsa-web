@@ -1,7 +1,7 @@
 <section class="nosotros" id="nosotros">
 
     <div class="nosotros__image">
-        <img src="resources/img/img1.png" alt="Img">
+        <img src="resources/img/img1.png" alt="Img" loading="lazy">
     </div>
 
     <div class="nosotros__information">
@@ -15,7 +15,7 @@
             <div class="nosotros__text gs_reveal">
             Conjuntando la mejor experiencia de la zona norte y centro del país, 
             comenzamos este proyecto con el único objetivo de trascender en el ramo inmobiliario,
-             con propuestas que rompieran las barreras de lo ya hecho o visto en la región.
+            con propuestas que rompieran las barreras de lo ya hecho o visto en la región.
             <br><br>
             Con experiencia en el rubro de la construcción, de los negocios y comercialización, 
             generamos proyectos y propuestas que desafían los límites de nuestros clientes, 

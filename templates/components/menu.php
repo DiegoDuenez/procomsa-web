@@ -4,16 +4,16 @@
 
         <div class="menu__row">
             <div class="menu__image" id="img1">
-                <img src="resources/img/img3.png" alt="">
+                <img src="resources/img/img3.png" alt="" loading="lazy">
             </div>
         </div>
 
         <div class="menu__row">
             <div class="menu__image menu__image--w50"  id="img2">
-                <img src="resources/img/img2.png" alt="">
+                <img src="resources/img/img2.png" alt="" loading="lazy">
             </div>
             <div class="menu__logo menu__image--w50"  id="img3">
-                <img src="resources/img/logotipo.png" alt="">
+                <img src="resources/img/logotipo.png" alt="" loading="lazy">
             </div>
 
         </div>

@@ -5,7 +5,7 @@
 <meta name="description" content=" Conjuntando la mejor experiencia de la zona norte y centro del país, 
 comenzamos este proyecto con el único objetivo de trascender en el ramo inmobiliario,
 con propuestas que rompieran las barreras de lo ya hecho o visto en la región.">
-<title>PROCOMSA</title>
+<title>PROCOMSA | Desarrollos inmobiliarios</title>
 <!--===== FAVICON =====-->
 <link rel="apple-touch-icon" sizes="180x180" href="resources/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="resources/favicon/favicon-32x32.png">

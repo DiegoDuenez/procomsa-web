@@ -7,7 +7,7 @@
     </div>
 
     <div class="navbar__logo">
-        <a href="./"><img src="resources/img/logo-pequeño.png" alt="PROCOMSA"></a> 
+        <a href="./"><img src="resources/img/logo-pequeño.png" alt="PROCOMSA" title="PROCOMSA" loading="lazy"></a> 
     </div>
 
     <div class="navbar__contact">

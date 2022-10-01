@@ -11,10 +11,7 @@
 <script src="js/carrusel.js"></script>
 <script src="js/menu.js"></script>
 <script src="js/modal.js"></script>
-
-<!-- <script src="js/index.js"></script>
-<script src="js/menu.js"></script>
-<script src="js/mail.js"></script> -->
+<script src="js/mail.js"></script>
 
 <script>
 

@@ -1399,10 +1399,10 @@
     -webkit-transition-timing-function: ease-out;
     transition-timing-function: ease-out;
   }
-  .hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active {
+  .hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus {
     color: white;
   }
-  .hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
+  .hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before {
     -webkit-transform: scaleY(1);
     transform: scaleY(1);
   }
