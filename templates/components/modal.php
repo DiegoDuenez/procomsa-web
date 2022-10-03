@@ -4,19 +4,19 @@
 
         <div class="modal__frame">
 
-            <iframe class="modal__iframe " id="modalVideo" src="https://www.youtube.com/embed/orSedeWQuOE"></iframe>
-
+          <!-- <iframe class="modal__iframe " id="modalVideo" src="https://www.youtube.com/embed/orSedeWQuOE"></iframe> -->
+            <iframe class="modal__iframe " id="modalVideo" allow="autoplay; encrypted-media"></iframe>
             <div class="modal__row modal__imagenes modal__row--hide" >
                 <div class="modal__image modal__image--w50" >
-                    <img src="resources/img/img4.png" alt="" loading="lazy">
+                    <img id='img1' src="resources/img/img4.png" alt="" loading="lazy">
                 </div>
                 <div class="modal__image modal__image--w50" >
-                    <img src="resources/img/img5.png" alt="" loading="lazy">
+                    <img id='img2' src="resources/img/img5.png" alt="" loading="lazy">
                 </div>
             </div>
             <div class="modal__row modal__imagenes modal__row--hide">
                 <div class="modal__image">
-                    <img src="resources/img/img6.png" alt="" loading="lazy">
+                    <img id='img3' src="resources/img/img6.png" alt="" loading="lazy">
                 </div>
             </div>
 
@@ -29,7 +29,7 @@
 
         <div class="modal__links">
             <div class="modal__title">
-                <span class="title__line title__line--sm title__line--gold"></span><h2 class="title title--gold ">DETALLES DEL PROYECTO</h2> 
+                <span class="title__line title__line--sm title__line--gold"></span><h2 class="title title--gold ">DETALLES DEL PROYECTO</h2>
             </div>
 
             <div class="modal__description">
@@ -44,7 +44,7 @@
 
     </div>
 
-    <div class="modal__buttons"> 
+    <div class="modal__buttons">
 
         <button class="modal__button2" id="btnModalAnterior">
             <i class="fa-solid fa-angle-left"></i>
@@ -52,7 +52,7 @@
         <button class="modal__button2" id="btnModalSiguiente">
             <i class="fa-solid fa-angle-right"></i>
         </button>
-                
+
     </div>
 
 </div>

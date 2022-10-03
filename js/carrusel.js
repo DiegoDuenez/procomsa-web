@@ -17,14 +17,15 @@ var slider = new Glider(document.querySelector(".glider"), {
         }
     ]
 })
-slideAutoPaly(slider, '.glider');
-function slideAutoPaly(glider, selector, delay = 4000, repeat = true) {
+
+slideAutoPlay(slider, '.glider');
+function slideAutoPlay(glider, selector, delay = 4000, repeat = true) {
     let autoplay = null;
     const slidesCount = glider.track.childElementCount;
     let nextIndex = 1;
     let pause = true;
     function slide() {
-      
+
         autoplay = setInterval(() => {
             if (nextIndex >= slidesCount) {
                 if (!repeat) {
@@ -56,7 +57,6 @@ function slideAutoPaly(glider, selector, delay = 4000, repeat = true) {
 
 $('#btnAnterior').hover(function(){
     $('.card').css('transform', 'translateX(20px)')
-
 }, function(){
     $('.card').css('transform', 'none')
 })
@@ -66,3 +66,15 @@ $('#btnSiguiente').hover(function(){
 }, function(){
     $('.card').css('transform', 'none')
 })
+
+$('.tabTipo').click(function(){
+  var idtipo_proyecto = $(this).data('myval');
+  if (idtipo_proyecto == "1") {
+    $("#residencial").fadeIn();
+    $("#vertical").fadeOut();
+  }
+  else if (idtipo_proyecto == "2") {
+    $("#residencial").fadeOut();
+    $("#vertical").fadeIn();
+  }
+});

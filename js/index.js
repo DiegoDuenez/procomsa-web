@@ -14,34 +14,34 @@ function animateFrom(elem, direction) {
     elem.style.transform = "translate(" + x + "px, " + y + "px)";
     elem.style.opacity = "0";
     gsap.fromTo(elem, {x: x, y: y, autoAlpha: 0}, {
-      duration: 1.25, 
+      duration: 1.25,
       x: 0,
-      y: 0, 
-      autoAlpha: 1, 
-      ease: "expo", 
+      y: 0,
+      autoAlpha: 1,
+      ease: "expo",
       overwrite: "auto"
     });
   }
-  
+
   function hide(elem) {
     gsap.set(elem, {autoAlpha: 0});
   }
-  
+
   document.addEventListener("DOMContentLoaded", function() {
     gsap.registerPlugin(ScrollTrigger);
-    
+
     gsap.utils.toArray(".gs_reveal").forEach(function(elem) {
       hide(elem); // assure that the element is hidden when scrolled into view
-      
+
       ScrollTrigger.create({
         trigger: elem,
-        onEnter: function() { animateFrom(elem) }, 
+        onEnter: function() { animateFrom(elem) },
         onEnterBack: function() { animateFrom(elem, -1) },
         onLeave: function() { hide(elem) } // assure that the element is hidden when scrolled into view
       });
     });
   });
-  
+
 
 var lastScrollTop = 0
 window.addEventListener("scroll", function () {
@@ -76,11 +76,11 @@ $(window).scroll(function() {
     let coberturaTarget = $('#cobertura').position().top;
     let coberturaDot = $(".dot__out[href='#cobertura']")
 
-    
+
     let proyectosTarget = $('#proyectos').position().top;
     let proyectosDot = $(".dot__out[href='#proyectos']")
 
-   
+
     if($(window).scrollTop() >= nosotrosTarget && $(window).scrollTop() < serviciosTarget) {
         clearDots(nosotrosDot)
     }
@@ -93,12 +93,9 @@ $(window).scroll(function() {
     if($(window).scrollTop() >= proyectosTarget){
         clearDots(proyectosDot)
     }
-
     if($(window).scrollTop() < nosotrosTarget){
         clearDots(inicioDot)
     }
-
-
 });
 
 function clearDots(dot){
@@ -141,12 +138,12 @@ function counter(element){
       if(upto == to) {
         clearInterval(counts);
       }
-    
+
     });
-    
+
   });
 
-  
+
 }
 
 
