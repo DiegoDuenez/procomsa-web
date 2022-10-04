@@ -2,27 +2,18 @@
 
     <div class="modal__content" >
 
-        <div class="modal__frame">
+        <div class="modal__frame" >
 
-          <!-- <iframe class="modal__iframe " id="modalVideo" src="https://www.youtube.com/embed/orSedeWQuOE"></iframe> -->
-            <iframe class="modal__iframe " id="modalVideo" allow="autoplay; encrypted-media"></iframe>
-            <div class="modal__row modal__imagenes modal__row--hide" >
-                <div class="modal__image modal__image--w50" >
-                    <img id='img1' src="resources/img/img4.png" alt="" loading="lazy">
-                </div>
-                <div class="modal__image modal__image--w50" >
-                    <img id='img2' src="resources/img/img5.png" alt="" loading="lazy">
-                </div>
-            </div>
-            <div class="modal__row modal__imagenes modal__row--hide">
-                <div class="modal__image">
-                    <img id='img3' src="resources/img/img6.png" alt="" loading="lazy">
+            <div class="container">
+                <div id="carouselExampleControls" class="carousel slide" data-ride='carousel'  data-interval="false">
+                    <div class="carousel-inner" id="modal__galeria">
+                        
+                    </div>
                 </div>
             </div>
 
         </div>
-
-
+        
     </div>
 
     <div class="modal__content modal__content--center modal__content--bg" >
@@ -46,10 +37,10 @@
 
     <div class="modal__buttons">
 
-        <button class="modal__button2" id="btnModalAnterior">
+        <button class="modal__button2 " id="btnModalAnterior" href="#carouselExampleControls" role="button" data-slide="prev">
             <i class="fa-solid fa-angle-left"></i>
         </button>
-        <button class="modal__button2" id="btnModalSiguiente">
+        <button class="modal__button2" id="btnModalSiguiente" href="#carouselExampleControls" role="button" data-slide="next">
             <i class="fa-solid fa-angle-right"></i>
         </button>
 

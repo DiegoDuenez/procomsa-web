@@ -18,6 +18,7 @@ var slider = new Glider(document.querySelector(".glider"), {
     ]
 })
 
+
 slideAutoPlay(slider, '.glider');
 function slideAutoPlay(glider, selector, delay = 4000, repeat = true) {
     let autoplay = null;
@@ -53,6 +54,8 @@ function slideAutoPlay(glider, selector, delay = 4000, repeat = true) {
         }
     }, 300);
 }
+
+
 
 
 $('#btnAnterior').hover(function(){

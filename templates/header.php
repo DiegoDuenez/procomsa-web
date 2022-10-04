@@ -23,6 +23,7 @@ con propuestas que rompieran las barreras de lo ya hecho o visto en la región."
 <!--====== MENU CSS ======-->
 <link rel="stylesheet" href="libs/menu/menu.min.css">
 <!--====== MAIN CSS ======-->
+<link rel="stylesheet" href="css/boot/bootstrap.css">
 <link rel="stylesheet" href="css/index.css">
 <!--====== GOOGLE RECAPTCHA ======-->
 <script src="https://www.google.com/recaptcha/api.js"></script>
