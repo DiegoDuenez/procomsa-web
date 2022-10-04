@@ -129,7 +129,10 @@ $(function() {
     if (next === videoSlide) {
       $("#video-player").attr('src', videoSlideSrc +"?autoplay=1" )
     } else {
-      $("#video-player").attr('src', videoSlideSrc.split('?')[0])
+      if ($("#video-player").length) {
+          $("#video-player").attr('src', videoSlideSrc.split('?')[0])
+      }
+    
     }
   });
 });
