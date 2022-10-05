@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <!--===== HEADER START =====-->
     <?php include 'templates/header.php' ?>
     <!--===== HEADER END =====-->
 </head>
-<body>
+<body contenteditable="false" spellcheck="false"> 
 
     <!--====== MODAL START ======-->
     <?php include 'templates/components/modal.php'; ?>

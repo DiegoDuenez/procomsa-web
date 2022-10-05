@@ -7,7 +7,7 @@
     <div class="cobertura__lista">
 
         <ul>
-            <li>Monterrrey</li>
+            <li>Monterrey</li>
             <li>Saltillo</li>
             <li>Torreón</li>
             <li>Gómez Palacio</li>
