@@ -25,14 +25,13 @@
             <div class="contacto__informacion">
 
                 <div class="contacto__informacion-item">
-                     <a href="mailto:contacto@upcprocomsa.mx"><i class="fa-solid fa-envelope"></i> contacto@upcprocomsa.mx</a>
+                     <a href="mailto:contacto@procomsamexico.com"><i class="fa-solid fa-envelope"></i> contacto@procomsamexico.com</a>
                 </div>
                 <div class="contacto__informacion-item">
-                    <a href="https://goo.gl/maps/Yj7aRkYFiFgZn3Eq8"><i class="fa-solid fa-location-dot"></i> San Pedro de las Colonias - Torreón 505, Santa Bárbara, 
-                    27105 Torreón, Coah.</a>
+                    <a href="https://goo.gl/maps/Yj7aRkYFiFgZn3Eq8"><i class="fa-solid fa-location-dot"></i> Carr. Torreón - San Pedro, Plaza 505 local 305, Torreón, Coahuila, Mex.2</a>
                 </div>
                 <div class="contacto__informacion-item">
-                    <a href="tel:8714324656"><i class="fa-solid fa-phone"></i> (871) 432 4656</a>
+                    <a href="tel:8715204800"><i class="fa-solid fa-phone"></i> (871) 520 4800</a>
                 </div>
 
             </div>
@@ -41,7 +40,7 @@
     </div>
 
     <div class="contacto__col contacto__col--30">
-        <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115190.16399141334!2d-103.4019159!3d25.548613699999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fdba9bb45b3fb%3A0x8bcc7a9970aea01d!2sTorre%C3%B3n%2C%20Coahuila!5e0!3m2!1sen!2smx!4v1664397948877!5m2!1sen!2smx"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d899.5687684744782!2d-103.4055558!3d25.5957742!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8fd44a65c0412891!2sPlaza%20505!5e0!3m2!1sen!2smx!4v1665088157835!5m2!1sen!2smx"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
 </div>

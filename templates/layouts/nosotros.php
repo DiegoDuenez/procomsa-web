@@ -1,7 +1,7 @@
 <section class="nosotros" id="nosotros">
 
     <div class="nosotros__image">
-        <img src="resources/img/img1.png" alt="Img" loading="lazy">
+        <img src="resources/img/PROYECTOS/PROYECTOS EN PLANEACION/PROYECTO LAGUNA/TOTEM.jpg" alt="Img" loading="lazy">
     </div>
 
     <div class="nosotros__information">

@@ -12,10 +12,10 @@
 
     <div class="navbar__contact">
         <div class="navbar__contact-item">
-            <a href="tel:8714324656"><i class="fa-solid fa-phone"></i> (871) 432 4656</a>
+            <a href="tel:8715204800"><i class="fa-solid fa-phone"></i> (871) 520 4800</a>
         </div>
         <div class="navbar__contact-item">
-            <a href="mailto:contacto@upcprocomsa.mx"><i class="fa-solid fa-envelope"></i> contacto@upcprocomsa.mx</a>
+            <a href="mailto:contacto@procomsamexico.com"><i class="fa-solid fa-envelope"></i> contacto@procomsamexico.com</a>
         </div>
     </div>
 
