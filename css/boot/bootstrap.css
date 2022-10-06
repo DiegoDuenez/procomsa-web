@@ -270,7 +270,24 @@
     height: 100%;
   }
 
-  @media screen and (min-width: 300px) and (max-width: 650px) {
-                        
-    .carousel-inner{height:20rem;}
+@media screen and (min-width: 300px) and (max-width: 650px) {
+  .carousel-inner{height:20rem;}
+}
+
+@media screen and (min-height: 806px) and (min-width: 650px) and (max-height: 960px) {
+  .carousel-inner{
+    height:60rem;
+  }
+}
+
+@media screen and (min-height: 961px) and (min-width: 650px) and (max-height: 1123px) {
+  .carousel-inner{
+    height:70rem;
+  }
+}
+
+@media screen and (min-height: 1124px) and (min-width: 650px) and (max-height: 1300px) {
+  .carousel-inner{
+    height:80rem;
+  }
 }
