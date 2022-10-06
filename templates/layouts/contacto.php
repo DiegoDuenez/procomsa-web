@@ -28,7 +28,8 @@
                      <a href="mailto:contacto@upcprocomsa.mx"><i class="fa-solid fa-envelope"></i> contacto@upcprocomsa.mx</a>
                 </div>
                 <div class="contacto__informacion-item">
-                    <a href="mailto:contacto@upcprocomsa.mx"><i class="fa-solid fa-location-dot"></i> contacto@upcprocomsa.mx</a>
+                    <a href="https://goo.gl/maps/Yj7aRkYFiFgZn3Eq8"><i class="fa-solid fa-location-dot"></i> San Pedro de las Colonias - Torreón 505, Santa Bárbara, 
+                    27105 Torreón, Coah.</a>
                 </div>
                 <div class="contacto__informacion-item">
                     <a href="tel:8714324656"><i class="fa-solid fa-phone"></i> (871) 432 4656</a>
