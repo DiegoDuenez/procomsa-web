@@ -47,7 +47,7 @@
                 </div>
 
                 <div class="menu__information-item menu__information-item--w100">
-                    <a href="tel:8714324656"><i class="fa-solid fa-phone"></i> 8714324656</a>
+                    <a href="tel:8714324656"><i class="fa-solid fa-phone"></i> (871) 432 4656</a>
                 </div>
 
             </div>

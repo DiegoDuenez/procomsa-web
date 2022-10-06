@@ -14,10 +14,12 @@
     padding:0;
     background-color:var(--color-blue);
     display: flex;
+    justify-content: space-between;
 }
     @media screen and (min-width: 300px) and (max-width: 650px) {
             
         .modal{
+             gap: 2rem;
             flex-direction: column-reverse;
         }
         
@@ -34,17 +36,26 @@
     background-color: transparent;
     width: max-content;
     word-wrap: break-word;
-    gap: 0.5rem;
     font-size: 1.2rem;
     padding: 1rem 2rem;
-    right: 0;
     cursor: pointer;
     border: none;
     outline: none;
     border: 1px solid var(--color-gold);
     text-transform: uppercase;
     align-self: center;
+    position: absolute;
+    bottom: 0;
 }
+    @media screen and (min-width: 300px) and (max-width: 650px) {
+                
+        .modal__button{
+            top: 0;
+            bottom: unset;
+            padding: 0.5rem 1rem;
+        }
+        
+    }
 
 
 .modal__button{
@@ -56,6 +67,7 @@
     transition-property: color;
     -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
+    position: absolute;
 }
 
 .modal__button:before {
@@ -100,15 +112,22 @@
 }
     @media screen and (min-width: 300px) and (max-width: 650px) {
                         
-            .modal__content{
-                width: 100% ;
-            }
-            
+        .modal__content{
+            width: 100% ;
         }
+        
+    }
 
 .modal__content--center{
     justify-content: center;
 }
+    @media screen and (min-width: 300px) and (max-width: 650px) {
+                            
+        .modal__content--center{
+            justify-content: flex-end;
+        }
+        
+    }
 
 .modal__content--bg{
     background-image: url('../../resources/img/logo-trasparente.png');
@@ -199,6 +218,7 @@
     padding: 3rem;
     gap: 2rem;
     justify-content: center;
+    align-items: center;
 }
 
 .modal__link{
@@ -257,6 +277,7 @@
     width: 100%;
     align-items: center;
     gap: 0.5rem;
+    justify-content: center;
 }
 
 .modal__title h2{
@@ -268,17 +289,14 @@
     width: 100%;
     color: var(--color-white);
     font-size: 1.2rem;
+    justify-content: center;
 }
 
 
 .modal__buttons{
-    position: absolute;
     display: flex;
-    left: 50%;
-    bottom: 0;
-    transform: translate(-50%, 0%);
-    margin: 0 auto;
-
+    width: 100%;
+    justify-content: center;
 }
 
 .modal__video--hide{

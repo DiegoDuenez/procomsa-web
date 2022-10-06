@@ -15,7 +15,7 @@
                 Referencias comerciales
                 <br>
                 C.P. Abelardo Garza Becerra
-                <a href="tel:8442281070">844-228-1070</a>
+                <a href="tel:8442281070">(844) 228 1070</a>
             </div>
 
         </div>
@@ -29,7 +29,7 @@
                 Referencias comerciales
                 <br>
                 Raúl Valdéz
-                <a href="tel:8712126742">871-212-6742</a>
+                <a href="tel:8712126742">(871) 212 6742</a>
             </div>
 
         </div>

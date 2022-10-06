@@ -6,7 +6,7 @@
             <div class="contacto__title">
                 <span class="title__line title__line--gold"></span><h2 class="title title--gold  gs_reveal gs_reveal_fromLeft">PONTE EN CONTACTO</h2> 
             </div>
-            <p class="subtitle">Te escribiremos a la brevedad posible</p>
+            <p class="subtitle">Te escribiremos a la brevedad posible.</p>
         </div>
 
         <div class="contacto__form-container">
@@ -31,7 +31,7 @@
                     <a href="mailto:contacto@upcprocomsa.mx"><i class="fa-solid fa-location-dot"></i> contacto@upcprocomsa.mx</a>
                 </div>
                 <div class="contacto__informacion-item">
-                    <a href="tel:8714324656"><i class="fa-solid fa-phone"></i> 8714324656</a>
+                    <a href="tel:8714324656"><i class="fa-solid fa-phone"></i> (871) 432 4656</a>
                 </div>
 
             </div>

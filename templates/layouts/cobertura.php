@@ -11,7 +11,7 @@
             <li>Saltillo</li>
             <li>Torreón</li>
             <li>Gómez Palacio</li>
-            <li>San Luis</li>
+            <li>San Luis Potosí</li>
             <li>Querétaro</li>
             <li>Mérida</li>
         </ul>
