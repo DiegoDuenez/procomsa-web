@@ -16,6 +16,7 @@
     position: fixed;
     top: 0;
     z-index: 9999;
+    transition: 400ms;
     border-bottom: 1px solid var(--color-gold);
 }
     

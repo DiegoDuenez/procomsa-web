@@ -57,3 +57,21 @@ const animateCSS = (element, animation, prefix = 'animate__') =>
 function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
+
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+
+    console.log(currentScrollPos)
+    if(currentScrollPos > 700){
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-100px";
+        }
+    prevScrollpos = currentScrollPos;
+
+    }
+    
+}
