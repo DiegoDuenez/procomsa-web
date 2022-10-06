@@ -24,7 +24,7 @@
 
         </div>
 
-        <div class="nosotros__col">
+        <div class="nosotros__col" >
 
             <div class="nosotros__title gs_reveal gs_reveal_fromRight">
                 <div class="nosotros__title-text"> <i class="fa-solid fa-lightbulb-on"></i> Visión</div>
