@@ -113,6 +113,7 @@ function cargarModal(id = undefined){
             `)
             
             for(var i = 0; i < response.length; i++){
+                console.log(response[i])
                 $('#carrusel').append(`
                 <div  class='card'>
                     <div class='card__image'>
@@ -124,7 +125,7 @@ function cargarModal(id = undefined){
                     </div>
                     <div class='card__body'>
                     <p class='card__text'>${response[i].nombre}</p>
-                    <p class='card__text card__text--gold'>${response[i].ciudad}</p>
+                    <p class='card__text card__text--gold'>${ response[i].idtipo_proyecto != 3 ? response[i].ciudad : ''}</p>
                         <button type='button' class='card__button hvr-sweep-to-top openModal' id='${response[i].id_proyecto}'>VER PROYECTO</button>
                     </div>
                     </div>

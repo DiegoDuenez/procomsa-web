@@ -1,16 +1,16 @@
-<div class="menu" id="menu">
+<div class="menu" id="menu" style='display: none'>
 
     <div class="menu__content menu__content--blue">
 
         <div class="menu__row">
             <div class="menu__image" id="img1">
-                <img src="resources/img/PROYECTOS/PROYECTOS EN PLANEACION/PROYECTO LAGUNA/TORRE B - AGENCIA 2.jpg" alt="Torre" loading="lazy">
+                <img src="resources/img/TORRE B - AGENCIA 2.jpg" alt="Torre" loading="lazy">
             </div>
         </div>
 
         <div class="menu__row">
             <div class="menu__image menu__image--w50"  id="img2">
-                <img src="resources/img/PROYECTOS/PROYECTOS EN PLANEACION/PROYECTO LAGUNA/TORRE B FACHADA PRINCIPAL.jpg" alt="" loading="lazy">
+                <img src="resources/img/TORRE B FACHADA PRINCIPAL.jpg" alt="" loading="lazy">
             </div>
             <div class="menu__logo menu__image--w50"  id="img3">
                 <img src="resources/img/logo_menu.png" alt="" loading="lazy">
@@ -37,7 +37,7 @@
         <div class="menu__information" >
 
             <div class="menu__information-item" >
-                <a href="mailto:contacto@procomsamexico.com"><i class="fa-solid fa-location-dot"></i> contacto@procomsamexico.com</a>
+                <a href="https://goo.gl/maps/Yj7aRkYFiFgZn3Eq8" target="blank"><i class="fa-solid fa-location-dot"></i> Carr. Torreón - San Pedro, Plaza 505 local 305, Torreón, Coahuila, Mex.2</a>
             </div>
 
             <div class="menu__information-col">

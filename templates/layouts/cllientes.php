@@ -23,7 +23,7 @@
         <div class="clientes__item">
 
             <div class="clientes__item-img">
-                <img src="resources/img/davisa.png" alt="Davisa" loading="lazy">
+                <h2 style="font-weight: bold;">TRICOLI</h2>
             </div>
             <div class="clientes__item-text">   
                 Referencias comerciales
