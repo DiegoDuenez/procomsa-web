@@ -28,7 +28,7 @@
                      <a href="mailto:contacto@procomsamexico.com"><i class="fa-solid fa-envelope"></i> contacto@procomsamexico.com</a>
                 </div>
                 <div class="contacto__informacion-item">
-                    <a href="https://goo.gl/maps/Yj7aRkYFiFgZn3Eq8" target="blank"><i class="fa-solid fa-location-dot"></i> Carr. Torreón - San Pedro, Plaza 505 local 305, Torreón, Coahuila, Mex.2</a>
+                    <a href="https://goo.gl/maps/Yj7aRkYFiFgZn3Eq8" target="blank"><i class="fa-solid fa-location-dot"></i> Carr. Torreón - San Pedro, Plaza 505 local 305, Torreón, Coahuila, Mex.</a>
                 </div>
                 <div class="contacto__informacion-item">
                     <a href="tel:8715204800"><i class="fa-solid fa-phone"></i> (871) 520 4800</a>

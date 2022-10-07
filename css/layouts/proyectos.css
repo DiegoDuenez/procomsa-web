@@ -38,6 +38,8 @@
     width: 100%;
     align-items: center;
     gap: 2rem;
+    /* height: max-content; */
+
 }
 
 .proyectos__tabs{
