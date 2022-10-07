@@ -31,6 +31,7 @@ $('.container-glider').on('click', '.openModal', function() {
 
             for(var i = 0; i < galeria_proyecto.length; i++){
 
+              console.log(galeria_proyecto)
               if(i == 0){
                 $('#modal__galeria').append(`
                   <div class="carousel-item active">
