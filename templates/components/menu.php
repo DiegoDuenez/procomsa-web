@@ -13,7 +13,7 @@
                 <img src="resources/img/PROYECTOS/PROYECTOS EN PLANEACION/PROYECTO LAGUNA/TORRE B FACHADA PRINCIPAL.jpg" alt="" loading="lazy">
             </div>
             <div class="menu__logo menu__image--w50"  id="img3">
-                <img src="resources/img/proyectos/logo_menu.png" alt="" loading="lazy">
+                <img src="resources/img/logo_menu.png" alt="" loading="lazy">
             </div>
 
         </div>

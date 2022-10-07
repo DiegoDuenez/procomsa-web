@@ -17,8 +17,7 @@
     menu = new Menu({options: {openWith: '.open', closeWith: '.close', size:'lg', direction: 'right', element: '.menu'}})
     menu.init();
 
-    modal = new Menu({options: {openWith: '.openModal', closeWith: '.closeModal', size:'lg', direction: 'bottom', element: '.modal'}})
-    modal.init();
+    
 
     AOS.init();
 </script>

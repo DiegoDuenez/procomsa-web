@@ -51,7 +51,10 @@
     @media screen and (min-width: 300px) and (max-width: 600px) {
                                                             
         .proyectos__tabs{
+            flex-direction: column;
             padding: 0 2rem;
+            gap: 1rem;
+            margin-top: 3rem;
         }
         
     }
@@ -75,7 +78,8 @@
     @media screen and (min-width: 300px) and (max-width: 600px) {
                                                         
         .proyectos__tab{
-            width: 50%;
+            padding: 1rem;
+            width: 100%;
         }
         
     }

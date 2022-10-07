@@ -6,8 +6,9 @@ var galeria_proyecto
 var iframe;
 var sliderModal;
 
-$('.openModal').click(function(){
-    siguienteImagen = 0
+$('.container-glider').on('click', '.openModal', function() {
+    
+  siguienteImagen = 0
     anteriorImagen = 0
     var urlPost = 'admin/mysql/Proyectos/index.php';
     var idProyecto = this.id;
@@ -96,6 +97,10 @@ $('.openModal').click(function(){
       }
   });
 })
+
+// $('.openModal').click(function(){
+    
+// })
 
 $('.closeModal').click(function(){
 

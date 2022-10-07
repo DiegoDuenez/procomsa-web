@@ -15,6 +15,7 @@
     background-color:var(--color-blue);
     display: flex;
     justify-content: space-between;
+    display: none;
 }
     @media screen and (min-width: 300px) and (max-width: 650px) {
             

@@ -21,7 +21,7 @@ foreach ($ListaProyectos as $proyecto) {
       </div>
       <div class='card__information'>
       <div class='card__header'>
-      <p class='card__title '>FRACCIONAMIENTO</p>
+      <!--<p class='card__title '>FRACCIONAMIENTO</p>-->
       </div>
       <div class='card__body'>
       <p class='card__text'>$nombre</p>
