@@ -1,7 +1,7 @@
 <section class="servicios" id="servicios">
 
     <div class="servicios__header">
-      <span class="title__line"></span><h2 class="title gs_reveal gs_reveal_fromLeft">SERVICIOS</h2>
+      <span class="title__line"></span><h2 class="title gs_reveal" data-aos="fade-right">SERVICIOS</h2>
     </div>
 
     <div class="servicios__items">

@@ -4,7 +4,7 @@
 
         <div class="contacto__header">
             <div class="contacto__title">
-                <span class="title__line title__line--gold"></span><h2 class="title title--gold  gs_reveal gs_reveal_fromLeft">PONTE EN CONTACTO</h2> 
+                <span class="title__line title__line--gold"></span><h2 class="title title--gold" data-aos="fade-right">PONTE EN CONTACTO</h2> 
             </div>
             <p class="subtitle">Te escribiremos a la brevedad posible.</p>
         </div>

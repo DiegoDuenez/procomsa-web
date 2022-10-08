@@ -3,9 +3,6 @@
 <script src="libs/aos/dist/aos.js"></script>
 <script src="libs/menu/menu.min.js"></script>
 <script src="libs/sweetalert2/sweetalert2.all.min.js"></script>     
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script> 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/ScrollTrigger.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.1/ScrollToPlugin.min.js"></script>
 <script src="js/index.js"></script>
 <script src="js/carrusel.js"></script>
 <script src="js/menu.js"></script>

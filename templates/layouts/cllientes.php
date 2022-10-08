@@ -1,7 +1,7 @@
 <section class="clientes" id="clientes">
 
     <div class="clientes__header">
-      <span class="title__line"></span><h2 class="title gs_reveal gs_reveal_fromLeft">CLIENTES Y COLABORADORES</h2>
+      <span class="title__line"></span><h2 class="title" data-aos="fade-right">CLIENTES Y COLABORADORES</h2>
     </div>
 
     <div class="clientes__items">

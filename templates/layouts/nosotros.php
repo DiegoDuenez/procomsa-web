@@ -8,7 +8,7 @@
 
         <div class="nosotros__col">
 
-            <div class="nosotros__title gs_reveal gs_reveal_fromLeft">
+            <div class="nosotros__title gs_reveal gs_reveal_fromLeft" data-aos="fade-right">
                 <div class="nosotros__title-text"><i class="fa-solid fa-users"></i> Nuestra historia </div>
                 <span class="nosotros__bar"></span>
             </div>
@@ -26,7 +26,7 @@
 
         <div class="nosotros__col" >
 
-            <div class="nosotros__title gs_reveal gs_reveal_fromRight">
+            <div class="nosotros__title gs_reveal gs_reveal_fromRight" data-aos="fade-left">
                 <div class="nosotros__title-text"> <i class="fa-solid fa-lightbulb-on"></i> Visión</div>
                 <span class="nosotros__bar"></span>
             </div>
@@ -35,7 +35,7 @@
             , siempre con el objetivo de crear una experiencia en nuestros clientes, siendo un referente de la ciudad en la que se encuentre.
             </div>
 
-            <div class="nosotros__title nosotros__title-mt5 gs_reveal gs_reveal_fromRight" >
+            <div class="nosotros__title nosotros__title-mt5 gs_reveal gs_reveal_fromRight" data-aos="fade-left">
                 <div class="nosotros__title-text"> <i class="fa-regular fa-bullseye-arrow"></i> Misión </div>
                 <span class="nosotros__bar"></span>
             </div>
