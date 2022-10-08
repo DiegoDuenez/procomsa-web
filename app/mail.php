@@ -7,9 +7,9 @@ $mensaje = test_input($_POST['mensaje']);
 
 
 if (empty($nombre) ||  empty($correo)  || empty($mensaje) || empty($telefono)) {
-    return print(json_encode('empty'));
+    echo json_encode('emptyy');
 } else {
-    $para = "diegoduenez03@gmail.com";
+    $para = "contacto@procomsamexico.com";
     $titulo = $nombre . ' quiere ponerse en contacto.';
     $mensaje = '
     <html>
@@ -32,24 +32,13 @@ if (empty($nombre) ||  empty($correo)  || empty($mensaje) || empty($telefono)) {
     $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
     $cabeceras .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
 
-    $cabeceras .= 'Para: <diegoduenez03@gmail.com>' . "\r\n";
+    $cabeceras .= 'Para: <contacto@procomsamexico.com>' . "\r\n";
     $cabeceras .= 'From: ' . $nombre . "\r\n";
 
     $sent = mail($para, utf8_decode($titulo), utf8_decode($mensaje), $cabeceras);
     echo json_encode('captcha');
 
-    // if ($jsonResponse->success === true) {
-
-    //     $sent = mail($para, utf8_decode($titulo), utf8_decode($mensaje), $cabeceras);
-
-    //     if ($sent) {
-    //         echo json_encode('success');
-    //     } else {
-    //         echo json_encode('servidor');
-    //     }
-    // } else {
-    //     echo json_encode('captcha');
-    // }
+   
 }
 
 
