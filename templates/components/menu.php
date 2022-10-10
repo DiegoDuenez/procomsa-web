@@ -34,6 +34,11 @@
 
         </div>
 
+        <div class="menu__logo menu__logo--transparent">
+            <img src="resources/img/logo_menu_small.png" alt="" loading="lazy">
+
+        </div>
+
         <div class="menu__information" >
 
             <div class="menu__information-item" >
