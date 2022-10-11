@@ -2,7 +2,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content=" Conjuntando la mejor experiencia de la zona norte y centro del país, 
+<meta name="description" content="Conjuntando la mejor experiencia de la zona norte y centro del país, 
 comenzamos este proyecto con el único objetivo de trascender en el ramo inmobiliario,
 con propuestas que rompieran las barreras de lo ya hecho o visto en la región.">
 <title>PROCOMSA | Desarrollos inmobiliarios</title>

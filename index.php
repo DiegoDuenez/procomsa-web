@@ -47,6 +47,10 @@
     <?php include 'templates/layouts/contacto.php'; ?>
     <!--====== CONTACTO END ======-->
 
+     <!--====== FOOTER START ======-->
+     <?php include 'templates/components/footer.php'; ?>
+    <!--====== FOOTER END ======-->
+
     <!--====== SCRIPTS START ======-->
     <?php include 'templates/scripts.php'; ?>
     <!--====== SCRIPTS END ======-->
