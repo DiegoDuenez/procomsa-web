@@ -42,7 +42,7 @@
         <div class="menu__information" >
 
             <div class="menu__information-item" >
-                <a href="https://goo.gl/maps/Yj7aRkYFiFgZn3Eq8" target="blank"><i class="fa-solid fa-location-dot"></i> Carr. Torreón - San Pedro, Plaza 505 local 305, Torreón, Coahuila, Mex.2</a>
+                <a href="https://goo.gl/maps/Yj7aRkYFiFgZn3Eq8" target="blank"><i class="fa-solid fa-location-dot"></i> Carr. Torreón - San Pedro, Plaza 505 local 305, Torreón, Coahuila, Mex.</a>
             </div>
 
             <div class="menu__information-col">
